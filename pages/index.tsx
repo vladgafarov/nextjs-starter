@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import tw, { css, styled } from 'twin.macro'
-import Modal from '../components/Modal'
-import Tooltip from '../components/Tooltip'
+import tw, { styled } from 'twin.macro'
+import Modal from '../components/utils/Modal'
+import Tooltip from '../components/utils/Tooltip'
 import { useModal } from '../lib/useModal'
 
 const TitleStyles = styled.h2`

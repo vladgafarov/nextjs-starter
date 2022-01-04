@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 import tw, { GlobalStyles as BaseStyles } from 'twin.macro'
 import 'tippy.js/dist/tippy.css'
-import { IPage } from './interfaces/Page'
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -27,7 +26,7 @@ const GlobalStyles = createGlobalStyle`
   }
 `
 
-const Page = ({ children }: IPage) => {
+const Page = ({ children }) => {
    return (
       <div>
          <BaseStyles />
